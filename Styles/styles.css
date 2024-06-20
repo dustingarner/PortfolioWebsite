@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+
+li, p {
+    color: green;
+}
+
+.special {
+    color: orange;
+    font-size: small;
+    list-style-type: none;
+}
