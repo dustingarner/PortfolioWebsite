@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 40;
+}
+
+.box1{
+    background-color: blueviolet;
+    width: 200;
+    height: 400;
+    box-sizing: border-box;
+    position: relative;
+    left: 400px;
+    padding: 20px;
+    border: 10px solid orange;
+    border-radius: 40px;
+    margin: 30px;
+}
+
+.box2{
+    background-color: lightblue;
+    width: 50vw;
+    padding: 20px 50px 40px 30px;
+    border: 10px solid orange;
+    margin: 50px;
+    text-align: center;
+    font-family: "Ga Maamli", sans-serif;
+}

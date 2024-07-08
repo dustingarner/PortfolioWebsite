@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+}
+
+h1{
+    color: blue;
+    font-size: 100;
+    margin-bottom: 1%;
+}
+
+form{
+    border: 15px solid salmon;
+}
+
+label{
+    color: green;
+    font-size: 45;
+    margin: auto;
+}
+
+input, textarea{
+    font-stretch: condensed;
+    text-align: left;
+    font-size: 40;
+    margin-left: 0.1em;
+    font-family: Arial;
+}
+
+.space{
+    display: block;
+    margin-bottom: 2em;
+}
+
+#first_name{
+    margin-right: 1em;
+}
+
+#middle_initial{
+    text-align: center;
+    margin-right: 1em;
+}
+
+#message{
+    text-align: left;
+    color: brown;
+    height: 200px;
+}
+
+
+
+
