@@ -4,6 +4,7 @@
 }
 
 body {
+    margin: 0%;
     background-color: darkblue;
 }
 
@@ -54,4 +55,28 @@ li, p {
 .highlight-image:hover {
     opacity: 1;
 }
+
+.svg-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(120deg) brightness(107%) contrast(103%);
+}
+
+.tabcontent {
+    list-style: none;
+}
+
+svg {
+    padding: 10%;
+}
+
+.bright-image {
+    opacity: 1.0;
+    transition-property: opacity, color;
+    transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition-duration: 0.2s;
+}
+
+.bright-image:hover {
+    opacity: 0.9;
+}
+
 
