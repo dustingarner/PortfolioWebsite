@@ -14,7 +14,7 @@ function constructSvgAttributes(viewBox='inherit', width='inherit', height='inhe
 const svgAttributes = {
     'github': new constructSvgAttributes(viewBox='0 0 64 64', width='64', height='64', focusable=false, ariaHidden='true'),
     'linkedin': new constructSvgAttributes(viewBox='0 0 64 64', width='64', height='64', focusable=false, ariaHidden='true'),
-    'godot': new constructSvgAttributes(viewBox="36 28 335 335", width="64", height="64")
+    'godot': new constructSvgAttributes(viewBox='36 28 335 335', width='64', height='64')
 };
 
 function createElement(tag, attributes){

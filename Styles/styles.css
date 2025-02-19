@@ -35,6 +35,7 @@ li, p {
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    z-index: 1;
 }
 
 .horizList {
@@ -50,6 +51,7 @@ li, p {
     transition-property: opacity, color;
     transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition-duration: 0.2s;
+    display: inline;
 }
 
 .highlight-image:hover {
@@ -68,6 +70,10 @@ svg {
     padding: 10%;
 }
 
+.svg-parent {
+    display: inline-block;
+}
+
 .bright-image {
     opacity: 1.0;
     transition-property: opacity, color;
@@ -78,5 +84,10 @@ svg {
 .bright-image:hover {
     opacity: 0.9;
 }
+
+.iframe-game {
+    display: block;
+}
+
 
 
