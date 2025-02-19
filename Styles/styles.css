@@ -1,6 +1,6 @@
 *{
     margin-left: 20;
-    color:aqua
+    color:green
 }
 
 body {
@@ -89,5 +89,16 @@ svg {
     display: block;
 }
 
+.svg-link-container {
+    display: flex;
+    justify-content: space-between;
+}
 
+.portfolio-item {
+    max-width: fit-content;
+    min-width: fit-content;
+}
 
+.portfolio-grid {
+    display: grid;
+}
